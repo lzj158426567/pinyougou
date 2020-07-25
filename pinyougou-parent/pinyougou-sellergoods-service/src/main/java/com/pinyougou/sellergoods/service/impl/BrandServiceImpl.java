@@ -85,4 +85,5 @@ public class BrandServiceImpl implements BrandService {
         return brandMapper.selectOptionList();
     }
 
+    public void getStep(){}
 }
