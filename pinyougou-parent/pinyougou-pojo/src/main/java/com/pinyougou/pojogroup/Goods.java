@@ -7,12 +7,11 @@ import com.pinyougou.pojo.TbItem;
 import java.io.Serializable;
 import java.util.List;
 
-/**
- * 录入商品实体类
- */
 public class Goods implements Serializable {
 	private TbGoods goods;//商品SPU
+
 	private TbGoodsDesc goodsDesc;//商品扩展
+
 	private List<TbItem> itemList;//商品SKU列表
 
 	public TbGoods getGoods() {
